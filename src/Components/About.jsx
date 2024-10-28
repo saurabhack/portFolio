@@ -31,7 +31,7 @@ function About(){
                         Finally, some quick bits about me.
                         </p>
                         <div className="grid grid-cols-2 gap-3">
-                            <li>B.Tech. in Computer Engineering</li>
+                            <li>BCA (Bachelors in computer application)</li>
                             <li>Tech Geek</li>
                             <li>Freelancer</li>
                             <li>UX Designer</li>

@@ -6,10 +6,11 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Main from "./Components/Main"
 import About from './Components/About'
-import Footer from './Components/footer'
+import Footer from './Components/Footer'
 import Projects from './Components/Projects'
 import Skills from "./Components/Skills"
 import ContactMe from './Components/ContactMe'
+import ProjectInfo from './Components/ProjectInfo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
        <Route path='/projects' element={<Projects/>}/>
        <Route path='/skills' element={<Skills/>}/>
        <Route path='/contactMe' element={<ContactMe/>}/>
+       <Route path='/ProjectInfo/:id' element={<ProjectInfo/>}/>
       </Routes>
       <Footer/>
     </Router>

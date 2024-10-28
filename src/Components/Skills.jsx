@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs } from '@fortawesome/free-brands-svg-icons';  
 import { faReact} from '@fortawesome/free-brands-svg-icons';  
 import { FaNodeJs } from "react-icons/fa";
-import { faServer } from '@fortawesome/free-solid-svg-icons'; // Server icon as a proxy for Express.js
+import { faServer } from '@fortawesome/free-solid-svg-icons'; 
 import { SiExpress } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
