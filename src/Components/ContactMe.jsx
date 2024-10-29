@@ -24,11 +24,11 @@ function ContactMe(){
         <div  className='bg-gray-400 p-3 w-40 flex justify-center rounded-xl '>
             <p className='text-white text-xl font-semibold '>Contact Me</p>
         </div>
-        <div className="w-full flex justify-center items-center">
-            <p className="text-white font-semibold text-lg text-center w-[50%]">Have a project or idea you'd like to discuss? Fill out the form below, and I'll get back to you as soon as possible!</p>
+        <div className="w-full flex justify-center items-center ">
+            <p className="text-white font-semibold text-lg text-center w-[50%] max-md:w-[100%] max-md:text-lg ">Have a project or idea you'd like to discuss? Fill out the form below, and I'll get back to you as soon as possible!</p>
         </div>
         <div className="text-white w-full flex justify-center ">
-            <form className="flex flex-col  gap-4 w-[50%]" onSubmit={handleSubmit}>
+            <form className="flex flex-col  gap-4 w-[50%] max-md:w-[100%] max-md:p-3" onSubmit={handleSubmit}>
             <label>Name</label>
             <input type="text" id="userName" className="bg-[#030712] border h-10 rounded-lg border-gray-400 focus:border-white" placeholder=""/>
             <label>Email Id</label>

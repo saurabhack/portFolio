@@ -27,12 +27,12 @@ function Skills(){
         <>
         <div className="w-[100vw]  flex flex-col gap-10 items-center pt-20 bg-[#030712]">
             <div  className='bg-gray-400 p-3 w-40 flex justify-center rounded-xl '>
-                <p className='text-white text-xl font-semibold '>Skills</p>
+                <p className='text-white text-xl font-semibold max-md:text-lg'>Skills</p>
             </div>
             <div >
-                <p className='text-xl text-white'>The skills, tools and technologies I am really good at:</p>
+                <p className='text-xl max-md:text-lg max-md:p-3 text-white'>The skills, tools and technologies I am really good at:</p>
             </div>
-            <div className='grid grid-cols-5 gap-20 '>
+            <div className='grid grid-cols-5 gap-20  max-md:grid-cols-3 max-md:p-4'>
                 <div className='flex flex-col items-center gap-2'>
                 <FontAwesomeIcon className='w-20 h-20' icon={faJs} style={{color: "#FFD43B",}} />
                     <p className='text-white'>Javascript</p>
@@ -77,7 +77,7 @@ function Skills(){
             <div>
             <p className='text-xl text-white'>programming languages :</p>
             </div>
-            <div className='grid grid-cols-4 gap-10'>
+            <div className='grid grid-cols-4 gap-10 max-md:grid-cols-3'>
             <div className='flex flex-col items-center gap-2'>
                 <TbBrandCpp className=' text-[#00599C] w-20 h-20'  />
                     <p className='text-white'>C Plus Plus</p>

@@ -4,17 +4,17 @@ import { FaGithub, FaHackerrank, FaLinkedin } from "react-icons/fa"
 function About(){
     return(
         <>
-        <div className="w-[100vw]   flex flex-col grow  pt-10   bg-[#030712]">
+        <div className="w-[100vw]   flex flex-col  grow  pt-10    bg-[#030712]">
             <div className="flex justify-center mt-4 w-[100%] h-[20%] items-center ">
                 <h1 className="text-gray-300 p-2 text-xl h-13 font-semibold bg-gray-400 rounded-xl opacity-11 ">About Me</h1>
             </div>
-            <div className="flex gap-10 mt-10 p-3 mb-6">
-                <div className="w-[50%] flex justify-center">
+            <div className="flex max-md:flex-col gap-10 mt-10 p-3 mb-6">
+                <div className="w-[50%] max-md:w-[100%] flex justify-center">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg" alt="" />
                 </div>
-                <div className="text-white w-[50%] flex flex-col gap-4">
-                    <h1 className="text-xl font-semibold">Curious about me? Here you have it:</h1>
-                    <div className="text-sm text-gray-300 w-[80%] flex flex-col gap-4">
+                <div className="text-white w-[50%] max-md:w-[100%]  flex flex-col max-md:items-center gap-4">
+                    <h1 className="text-xl max-md:text-1xl font-semibold">Curious about me? Here you have it:</h1>
+                    <div className="text-sm text-gray-300 w-[80%] flex flex-col gap-4 max-md:p-2">
                         <p className="text-left ">
                         I'm a passionate, self-proclaimed designer who specializes in UX Designing and Web Development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.
                         </p>

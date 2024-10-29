@@ -25,14 +25,14 @@ function Projects(){
     return(
         <>
         <div className="w-[100vw]   flex flex-col grow  pt-10   bg-[#030712] gap-20">
-            <div className="text-white w-full pt-10 flex justify-center gap-10">
-                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer" onClick={()=>filterData("all")}>All</div>
-                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer" onClick={()=>filterData("front-end")}>Front-End</div>
-                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer" onClick={()=>filterData("backend")}>Back-End</div>
-                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer">Live Projects / Hosted Projects</div>
+            <div className="text-white w-full pt-10  flex justify-center max-md:p-3 gap-10">
+                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer max-md:p-2 max-md:text-sm max-md:w-[200px] max-md:h-[50%] max-md:text-center" onClick={()=>filterData("all")}>All</div>
+                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer max-md:p-2 max-md:text-sm max-md:w-[200px] max-md:h-[50%] max-md:text-center" onClick={()=>filterData("front-end")}>Front-End</div>
+                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer max-md:p-2 max-md:text-sm max-md:w-[200px] max-md:h-[50%] max-md:text-center" onClick={()=>filterData("backend")}>Back-End</div>
+                <div className="p-2 bg-gray-400 rounded-xl cursor-pointer max-md:text-xs max-md:p-2 max-md:w-[400px] max-md:h-[50%] max-md:text-left">Live Projects / Hosted Projects</div>
             </div>
             <div className="w-full flex justify-center p-5">
-            <div className="w-[60%] grid grid-cols-3 gap-20  ">
+            <div className="w-[60%] grid grid-cols-3 gap-20 max-md:grid-cols-1 max-md:w-[80%]">
                 
                 {
 

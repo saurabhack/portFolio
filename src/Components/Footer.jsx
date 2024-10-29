@@ -48,7 +48,7 @@ function Footer() {
           </h2>
         </div>
         <div className="w-full flex justify-center items-center">
-          <div className="w-[40%] flex justify-center items-center">
+          <div className="w-[40%] max-md:w-[100%] flex justify-center items-center">
             <p className="text-center text-white text-sm">
               What’s next? Feel free to reach out to me if you're looking for a designer or a developer, have a query, or simply want to connect.
             </p>
@@ -56,20 +56,20 @@ function Footer() {
         </div>
         <div className="flex gap-2 w-full justify-center">
           <AiOutlineMail className="text-gray-400 text-3xl" />
-          <h1 className="text-xl text-white font-semibold">
+          <h1 className="text-xl max-md:text-lg text-white font-semibold">
             Kamanesaurabh68@gmail.com
           </h1>
           <FaRegCopy onClick={()=>textCopied(email)} className="text-gray-400 text-2xl cursor-pointer" />
         </div>
         <div className="flex gap-2 w-full justify-center">
-          <LuPhone className="text-gray-400 text-3xl" />
-          <h1 className="text-xl text-white font-semibold">
+          <LuPhone className="text-gray-400 text-3xl max-md:text-lg" />
+          <h1 className="text-xl max-md:text-lg text-white font-semibold">
             +91 - 9881910567
           </h1>
-          <FaRegCopy id="number" onClick={()=>textCopied(mobile)} className="text-gray-400 text-2xl cursor-pointer" />
+          <FaRegCopy id="number" onClick={()=>textCopied(mobile)} className="text-gray-400 max-md:text-lg text-2xl cursor-pointer" />
         </div>
-        <div className="bg-[#030712] w-full flex flex-col items-center gap-2 ">
-            <p className="text-gray-400">
+        <div className="bg-[#030712]  w-full flex flex-col items-center gap-2 ">
+            <p className="text-gray-400 max-md:text-sm">
             You may also find me on these platforms!
             </p>
             <div className="flex gap-4">
@@ -80,7 +80,7 @@ function Footer() {
         <ToastContainer />
         
       </footer>
-      <div className="bg-gray-800 w-[100vw] justify-center items-center gap-4 flex h-[10vh]">
+      <div className="bg-gray-800 w-[100vw] justify-center max-md:p-3 items-center gap-4 flex h-[10vh]">
       <FaRegCopyright className="text-white text-2xl"/>
       <p className="text-white">2024 | Designed and coded with ❤️️ by Saurabh kamane</p>
       </div>
