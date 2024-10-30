@@ -1,6 +1,6 @@
 import { CiLocationOn } from "react-icons/ci"
 import { FaGithub, FaHackerrank, FaLinkedin } from "react-icons/fa"
-
+import myImage from "../assets/myImage.jpeg"
 function About(){
     return(
         <>
@@ -10,7 +10,7 @@ function About(){
             </div>
             <div className="flex max-md:flex-col gap-10 mt-10 p-3 mb-6">
                 <div className="w-[50%] max-md:w-[100%] flex justify-center">
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg" alt="" />
+                    <img src={myImage} className="w-[60%] h-50" alt="" />
                 </div>
                 <div className="text-white w-[50%] max-md:w-[100%]  flex flex-col max-md:items-center gap-4">
                     <h1 className="text-xl max-md:text-1xl font-semibold">Curious about me? Here you have it:</h1>

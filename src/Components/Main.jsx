@@ -2,6 +2,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import firstProfile from "../assets/firstProfile.jpeg"
 
 
 
@@ -30,7 +31,7 @@ function Main(){
                 
             </div>
             <div className="w-[50%] h-[100%] flex justify-center items-center max-md:ml-10   shadow-lg ">
-                <img className="w-[40%] h-[50%] max-md:w-[100%] max-md:h-[100%]" src="https://i.pinimg.com/474x/0a/a8/58/0aa8581c2cb0aa948d63ce3ddad90c81.jpg" alt="" />
+                <img className="w-[40%] h-[50%] max-md:w-[100%] max-md:h-[100%]" src={firstProfile} alt="" />
             </div>
         </div>
         </>
