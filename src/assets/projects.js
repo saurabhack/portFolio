@@ -2,6 +2,7 @@ import Ecommerce from "./ProjectImages/Ecommerce.png"
 import languageTranslator from "./ProjectImages/languageTranslator.png"
 import StarBlog from "./ProjectImages/starBlog.jpeg"
 import ContactApp from "./ProjectImages/contactApp.png"
+import Netflix from "./ProjectImages/netflix.png"
 export const project = [
     {
         id: 1,
@@ -42,6 +43,16 @@ export const project = [
         description: "A contact management system built with React.js and Firebase, styled with Tailwind CSS. This app allows users to add, edit, delete, and view contacts with real-time data updates via Firebase. It showcases integration of Firebase Firestore for data storage and real-time syncing, making it a functional example of React with a backend-as-a-service.",
         gitLink: "https://github.com/saurabhack/Contact_app_using_react_and_Firebase.git",
         liveLink: "https://contact-app-using-react-and-firebase-swart.vercel.app/"
+    },
+    {
+        id:6,
+        projectName:"Netflix Clone",
+        techStack:"React.js , Firebase , Css3 , ReduxToolKit",
+        category:"front-end",
+        img:Netflix,
+        description:"A netflix clone 2.0 , it is build with the help of react , firebase and css3 and redux , farebase is used for authentication and redux is used to manage complex state of the application",
+        gitLink:"https://github.com/saurabhack/netFlixClone.git",
+        liveLink:"https://net-flix-clone-5pd2.vercel.app/"
     }
 ];
 
